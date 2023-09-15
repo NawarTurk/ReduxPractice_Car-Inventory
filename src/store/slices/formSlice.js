@@ -17,4 +17,4 @@ const formSlice = createSlice({
 })
 
 export const {changeName, changeCost } = formSlice.actions;  // those are the different action creators that are generated for us
-export const formReducer = formReducer.reducer;  // the one single combined reducer
+export const formReducer = formSlice.reducer;  // the one single combined reducer

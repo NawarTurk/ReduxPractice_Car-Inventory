@@ -1,4 +1,4 @@
-import { creatSlice, nanoid } from '@reduxjs/toolkit';
+import { createSlice, nanoid } from '@reduxjs/toolkit';
 
 const carsSlice = createSlice({
     name: 'cars',
@@ -29,5 +29,5 @@ const carsSlice = createSlice({
     }
 });
 
-export const {changeSearchTerm, addCar, removeCar} = carSlice.actions;
+export const {changeSearchTerm, addCar, removeCar} = carsSlice.actions;
 export const carsReducer = carsSlice.reducer;
