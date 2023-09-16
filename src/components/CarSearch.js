@@ -1,5 +1,5 @@
 function CarSearch() {
-    return;
+    return 'searc';
 }
 
 export default CarSearch;

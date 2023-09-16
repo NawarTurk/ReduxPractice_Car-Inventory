@@ -1,5 +1,5 @@
 function CarValue() {
-    return;
+    return 'val';
 }
 
 export default CarValue;
