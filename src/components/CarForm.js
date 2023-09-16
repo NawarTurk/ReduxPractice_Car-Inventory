@@ -49,7 +49,7 @@ function CarForm() {
                 </div>
                 <div>
                     <button>
-                        Submit
+                        Add
                     </button>
                 </div>
             </form>
