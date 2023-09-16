@@ -10,6 +10,7 @@ const carsSlice = createSlice({
         changeSearchTerm(state, action) {
             state.searchTerm = action.payload;
         },
+
         addCar(state, action) {
             // Asuumptiom:
             // action.payload === { name: 'ab', cost: 140 }
@@ -19,6 +20,7 @@ const carsSlice = createSlice({
                 id: nanoid()
             })
         },
+        
         removeCar(state, action) {
             // action.payload === id of the car we want to remove
             const updated = state.data.filter( (car) => {
