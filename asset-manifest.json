@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Car-Inventory--Redux-npl/static/js/main.b64b4cb2.js",
-    "index.html": "/Car-Inventory--Redux-npl/index.html",
-    "main.b64b4cb2.js.map": "/Car-Inventory--Redux-npl/static/js/main.b64b4cb2.js.map"
+    "main.js": "/Car-Inventory--Redux-/static/js/main.b64b4cb2.js",
+    "index.html": "/Car-Inventory--Redux-/index.html",
+    "main.b64b4cb2.js.map": "/Car-Inventory--Redux-/static/js/main.b64b4cb2.js.map"
   },
   "entrypoints": [
     "static/js/main.b64b4cb2.js"
