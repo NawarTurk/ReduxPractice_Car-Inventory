@@ -5,7 +5,7 @@ const formSlice = createSlice({
     name: 'form',
     initialState: {
         name: '',
-        cost: '',
+        cost: 0,
     },
     reducers: {  // rememeber the s
         changeName(state, action) {
